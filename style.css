@@ -1,0 +1,63 @@
+h1{
+  color: 	ghostwhite;
+	font-size: 40px;
+	font-family: Tratatello, serif;
+	font-style: italic;
+	text-decoration: underline;
+}
+h2,h3,h4{
+	color: ghostwhite;
+	font-size: 30px;
+	font-family: Snell Roundhand, cursive;
+	text-align: center;
+}
+p{
+	font-family: Georgia, serif;
+	color: ghostwhite;
+	text-align: center;
+}
+body{
+	background-color: whitesmoke;
+	background-image: url(images/fond.jpg);
+}
+a {
+  color: 	ghostwhite;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+i{
+	text-align: center;
+}
+img{
+	border-radius: 50%;
+	box-shadow: 20px 20px 30px 	ghostwhite;
+	margin-left: auto;
+	margin-right: auto;
+}
+div{
+	margin: 50px;
+	padding: 50px;
+	box-shadow: 20px 20px 30px ghostwhite;
+	border-radius: 20px;
+}
+.container{
+	width: 700px;
+	margin: 60px auto;
+}
+.button-white{
+	background-color: ghostwhite;
+	color: darkblue;
+	background-color: ghostwhite;
+	border-radius: 20px;
+	transition: color 0.3s ease;
+}
+.button-white: hover{
+	color: lightgreen;
+}
+
+/*MEDIA QUERIES*/
+@media
